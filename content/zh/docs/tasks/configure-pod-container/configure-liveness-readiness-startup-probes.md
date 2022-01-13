@@ -90,6 +90,8 @@ kubelet 在容器内执行命令 `cat /tmp/healthy` 来进行探测。
 
 当容器启动时，执行如下的命令：
 
+
+
 ```shell
 /bin/sh -c "touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600"
 ```
